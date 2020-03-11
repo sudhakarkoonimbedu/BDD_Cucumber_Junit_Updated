@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.305741">
+<testcase classname="Tagged Hooks" name="" time="0.305741">
+<system-out><![CDATA[Given This is first step....................................................passed
+When This is second step....................................................passed
+Then This is third step.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

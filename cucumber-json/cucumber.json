@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 270958,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefinition.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 108022,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefinition.firstBefore()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "tagged-hooks;",
+        "after": [
+          {
+            "result": {
+              "duration": 111944,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefinition.firstAfter()"
+            }
+          },
+          {
+            "result": {
+              "duration": 107116,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 304937902,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "This is first step",
+            "match": {
+              "location": "TaggedHooksDefinition.first_step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101987,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "This is second step",
+            "match": {
+              "location": "TaggedHooksDefinition.second_step()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103495,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "This is third step",
+            "match": {
+              "location": "TaggedHooksDefinition.third_step()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@first"
+          }
+        ]
+      }
+    ],
+    "name": "Tagged Hooks",
+    "description": "",
+    "id": "tagged-hooks",
+    "keyword": "Feature",
+    "uri": "Features/TaggedHooks.feature"
+  }
+]
