@@ -25,7 +25,7 @@ public class loginPageWithMapsDataTablesStepDefinition {
 	
 	@Given("^User is on Login page$")
 	public void user_is_on_Login_page() {
-       System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//drivers//chromedriver.exe");
+       System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
        
        ChromeOptions option = new ChromeOptions();
        
